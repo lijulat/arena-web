@@ -21,7 +21,7 @@ set SSO_KEY=tcsso_vm
 :: the HTTP server port
 set PORT=3000
 
-set STATIC_FILE_HOST=http://arena.cloud.topcoder.com:%PORT%
+set STATIC_FILE_HOST=http://localarena.topcoder.com:%PORT%
 
 set AWS_ACCESS_KEY_ID=
 set AWS_ACCESS_KEY=

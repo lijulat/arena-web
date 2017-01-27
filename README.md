@@ -35,10 +35,21 @@ Even though this is a client-side app, we still try to follow [12factor](http://
 
 ## Build and Release ##
 
+Set /etc/hosts file on host machine to include:
+```
+127.0.0.1 localarena.topcoder.com
+```
+
 Source the environment variables:
 ```
 source config/dev-local.sh
 ```
+
+Windows users can run:
+```
+config/dev-local.bat
+```
+
 
 To build the client side app run:
 ```
@@ -71,5 +82,7 @@ This will validate all js files by grunt-contrib-jshint .
 ```
 npm start
 ```
-
-
+Windows users can start the app using:
+```
+npm run start_win
+```
